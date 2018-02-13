@@ -1,2 +1,56 @@
+html {
+  color: white; }
+
 body {
-  background: orange; }
+  background: url("../img/main-bg.png") no-repeat;
+  background-size: cover; }
+
+ul,
+li {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+  a:hover {
+    color: lightseagreen; }
+
+.wrapper {
+  max-width: 1300px;
+  margin: 0 auto; }
+
+.header-content {
+  background-color: #292a2b;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  .header-content .logo {
+    margin: 0 40px; }
+    .header-content .logo:hover {
+      opacity: 0.8; }
+    .header-content .logo a {
+      display: block;
+      height: 100%; }
+
+.top-nav ul {
+  display: flex; }
+  .top-nav ul li {
+    padding: 30px 20px;
+    list-style-type: none;
+    margin-left: 10px;
+    position: relative; }
+    .top-nav ul li:first-child:before {
+      display: none; }
+    .top-nav ul li:before {
+      content: '|';
+      position: absolute;
+      color: #grey;
+      top: 28px;
+      left: -7px; }
+    .top-nav ul li a {
+      display: block;
+      height: 100%;
+      width: 100%; }
